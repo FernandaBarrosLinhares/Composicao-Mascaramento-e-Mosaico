@@ -8,7 +8,7 @@ O exercício tem como objetivo compreender o processamento de imagens de satéli
 
 ## 🛰️ Imagem 1 — Coleção Landsat 8 (Cores Verdadeiras)
 
-![Imagem 1 - Landsat 8 RGB](assets/imagem1.png)
+![Imagem 1 - Landsat 8 RGB](imagem1.png)
 
 Foi utilizada a coleção mais recente do **Landsat 8**, visualizada em **cores verdadeiras (RGB)**, com definição de um limite máximo de pixels para otimizar o processamento em nuvem.
 
@@ -16,7 +16,7 @@ Foi utilizada a coleção mais recente do **Landsat 8**, visualizada em **cores 
 
 ## 📊 Imagem 2 — Composição Estatística (Mediana)
 
-![Imagem 2 - Mediana](assets/imagem2.png)
+![Imagem 2 - Mediana](imagem2.png)
 
 Aplicação da **mediana temporal**, onde todas as imagens da coleção são reduzidas a **uma única imagem representativa**, minimizando ruídos como nuvens.
 
@@ -24,7 +24,7 @@ Aplicação da **mediana temporal**, onde todas as imagens da coleção são red
 
 ## 🎭 Imagem 3 — Mascaramento da Imagem
 
-![Imagem 3 - Máscara](assets/imagem3.png)
+![Imagem 3 - Máscara](imagem3.png)
 
 Aplicação do **mascaramento**, técnica que altera os pixels de uma imagem utilizando informações de outra, removendo áreas indesejadas — neste caso, a água.
 
@@ -32,7 +32,7 @@ Aplicação do **mascaramento**, técnica que altera os pixels de uma imagem uti
 
 ## 🌳 Imagem 4 — Estudo de Hansen
 
-![Imagem 4 - Hansen](assets/imagem4.png)
+![Imagem 4 - Hansen](imagem4.png)
 
 Uso do **Global Forest Change (Hansen)** para apoio na identificação da cobertura da terra e separação entre áreas terrestres e corpos d’água.
 
@@ -40,7 +40,7 @@ Uso do **Global Forest Change (Hansen)** para apoio na identificação da cobert
 
 ## 🗺️ Imagem 6 — DataMask / BitMask da Cobertura da Terra
 
-![Imagem 6 - DataMask](assets/imagem6.png)
+![Imagem 6 - DataMask](imagem5.png)
 
 Utilização do **DataMask (BitMask)**, onde o valor **1 representa áreas de terra**, permitindo recortar automaticamente regiões de água.
 
@@ -48,7 +48,7 @@ Utilização do **DataMask (BitMask)**, onde o valor **1 representa áreas de te
 
 ## 💧 Imagem 7 — Mosaico Final (Terra + Água)
 
-![Imagem 7 - Mosaico Final](assets/imagem7.png)
+![Imagem 7 - Mosaico Final](imagem6.png)
 
 Geração do **mosaico final**, combinando a composição da superfície terrestre com uma camada específica representando as áreas de água.
 
